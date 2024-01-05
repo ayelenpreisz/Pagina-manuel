@@ -5,11 +5,13 @@
 /*ESTILOS DEL BODY*/
   body{
     background-image: url(../Img/PruebaFondo1.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 0.5%;
     margin: 0.5%;
+    position: relative;
       
     
   }
