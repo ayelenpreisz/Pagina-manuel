@@ -9,6 +9,8 @@
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding: 0.5%;
+    margin: 0.5%;
     position: relative;
       
     
@@ -46,7 +48,7 @@
               font-size:x-small;
               li{
                   border: solid white;
-                  padding: 10px;
+                  
                   a{
                         color: $color-titulos;
                         background-color: black;
@@ -259,7 +261,13 @@
 }
 /*MEDIA QERY DESKTOP*/
 @media screen and (min-width: 1024px) {
-  
+   header{
+    ul{
+        li{
+            padding: 10px;
+        }
+    }
+   }
     .servicios{
        display: grid;
        grid-template-columns: repeat(3,1fr);

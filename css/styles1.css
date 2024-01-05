@@ -46,6 +46,8 @@ body {
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding: 0.5%;
+  margin: 0.5%;
   position: relative; }
 
 .grid-container {
@@ -77,8 +79,7 @@ header {
     gap: 3px;
     font-size: x-small; }
     header nav ul li {
-      border: solid white;
-      padding: 10px; }
+      border: solid white; }
       header nav ul li a {
         color: #D7DF01;
         background-color: black;
@@ -235,6 +236,8 @@ footer {
 
 /*MEDIA QERY DESKTOP*/
 @media screen and (min-width: 1024px) {
+  header ul li {
+    padding: 10px; }
   .servicios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
