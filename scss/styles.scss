@@ -9,8 +9,6 @@
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 0.5%;
-    margin: 0.5%;
     position: relative;
       
     
@@ -28,7 +26,7 @@
   
   /**ESTILOS SECCION NAV*/
   header{
-
+     width: 100%;
      display: flex;
      justify-content: space-between; 
      align-items: center;
@@ -261,6 +259,7 @@
 }
 /*MEDIA QERY DESKTOP*/
 @media screen and (min-width: 1024px) {
+  
     .servicios{
        display: grid;
        grid-template-columns: repeat(3,1fr);
